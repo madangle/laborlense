@@ -1,20 +1,41 @@
-# Virtual environment
+# ── Python ──────────────────────────────────────────
 venv/
-
-# Environment variables (NEVER commit this)
-.env
-
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
 
-# VS Code
-.vscode/
+# ── Environment variables (NEVER commit) ────────────
+.env
+.env.local
+.env.production
+.env*.local
 
-# Documents folder (PDFs can be large)
+# ── Next.js frontend ─────────────────────────────────
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+frontend/.vercel/
+
+# ── If your frontend folder has a different name ─────
+# change "frontend" to match your actual folder name
+# e.g. if it's called "laborlens-frontend" update above
+
+# ── Documents (PDFs can be large) ────────────────────
 documents/
 
-# OS files
+# ── OS files ─────────────────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ── VS Code ──────────────────────────────────────────
+.vscode/
+
+# ── Logs ─────────────────────────────────────────────
+*.log
+logs/
