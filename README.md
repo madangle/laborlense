@@ -2,9 +2,9 @@
 
 An AI-powered assistant that answers questions about UAE labor law with verified citations to specific articles of Federal Decree-Law No. 33 of 2021.
 
-**[Live Demo](#)** · **[Video Walkthrough](#)** · **[Report an Issue](#)**
+<!-- **[Live Demo](#)** · **[Video Walkthrough](#)** · **[Report an Issue](#)** -->
 
-![LaborLens Screenshot](docs/screenshot.png)
+<!-- ![LaborLens Screenshot](docs/screenshot.png) -->
 
 ---
 
